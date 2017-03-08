@@ -2,7 +2,7 @@ package = "lua-resty-redis-lock"
 version = "0.1.0-2"
 source = {
     url = "git://github.com/ntavish/lua-resty-redis-lock.git",
-    branch = master
+    branch = "master"
 }
 description = {
     summary = "Generic Locking mechanism for ngx_lua in redis",
