@@ -68,7 +68,7 @@ local function call_script(self, ...)
 	-- when LuaJit is not availible
 	local ans, err = redis:script("LOAD", script.script)
 	if not ans then
-	    nil, err
+	    return nil, err
 	end
 	sha1 = ans
 	script.sha1 = sha1
